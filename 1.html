@@ -1,0 +1,137 @@
+<!DOCTYPE html><!--声明html版本-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>这是一个标题</title>
+        <meta name="keywords" content="鲜花" >
+        <!--搜索引擎-->
+        <meta name="description" content="xianhuawang">
+        <style>
+            p{
+                font-family: "Arial Black";
+                text-align: center;
+                font-weight: 100;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>1111</h1>
+        <h2>1111</h2>
+        <h3>1111</h3>
+        <h4>1111</h4>
+        <h5>1111</h5>
+
+        <p>dfgjdjlgjrjlsgjdgjlofjldk</p>
+        <a href="http://www.baidu.com">百度</a> <!--绝对路径-->
+         <!-- <a href="2.html">百度</a>相对路径-->
+        <a href="2.html" target="_blank"></a><!--打开一个新的网页 target属性-->
+        <img src="aa.jpg" alt="这是个图片" title="图片">
+        <!--img 标签两个属性alt"图片加载失败" title鼠标滑过图片-->
+        <h4>病历表：</h4>
+        <table border="6">
+            <caption>病历表</caption>
+            <tr>
+                <th>病患名称</th>
+                <th>病患性别</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>11111</td>
+            </tr>
+        </table>
+        <table>
+             <tr>
+                 <td>22222 </td>
+                 <th>我的打底裤</th>
+            </tr>
+        </table>
+<!--无序列表-->
+        <ul>
+            <li>222</li>
+            <li>3333</li>
+            <li>44444</li>
+        </ul>
+      <!--  有序列表-->
+        <ol>
+            <li>222</li>
+            <li>3333</li>
+            <li>44444</li>
+        </ol>
+        布局区块：
+     <div>
+         回答好但是犯得上犯得上
+     </div>
+    <div>
+        dfdkj<span style="color:red">fdf</span>ddljdlfl
+    </div>
+    <div>
+        dfdkfjhdskldsjfkl
+    </div>
+        <!--span标签 行级元素 一行可以放好多-->
+    <span>dfdhfdjlvf</span>
+    <span>fdkjhdskf</span>
+    <span>vfjdfjdlkf</span>
+          <!--表单：用于后台提交数据的-->
+       <form action="">
+            <div>
+                <label for="username">用户名:<input id="username" type="text"/></label>
+            </div>
+            <div>
+                <label for="username">密码:</label><input id="username" type="password"/>
+            </div>
+            用户名： <input type="text"/><br/>
+            密码： <input type="password"/><br>
+            性别：
+            <input type="radio" name="sex" checked>FeMale <!-- 单选框 radio 属性name 可以把选项分成一组 制定同样的name-->
+            <input type="radio" name="sex">Male
+            <br/>
+            爱好： <!-- 复选框checkbox-->
+            <input type="checkbox" name="e" checked/>吃饭
+            <input type="checkbox" name="e"/>睡觉
+            <input type="checkbox" name="e"/>打豆豆 <!--/相同的name 属性 方便后台数据库读取数据-->
+            <br/>
+            <!--下拉框-->
+            学校：
+            <select>
+                <option value="">黑大</option> <!---默认checked选中-->
+                <option value="">来临</option>
+                <option value="">认识</option> <!--value 是我们取到的值 不是给用户看的-->
+            </select>
+            <br>
+            <button>按钮</button> <!--按button会跳因为有表单会提交到后台 把form 注掉就没事了-->
+            <input type="button" />按钮
+            <br>
+            <input type="submit" value="提交按钮">提交按钮
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
+             html5:
+            <input type="number"/>
+            <input type="email"/>
+            <input type="date"/>
+            <input type="color"/>
+            <!--设置 多少行列 id唯一的标识 name给后台取数据-->
+       </form>
+        <!--实体字符
+            &nbsp;一个空格 小于号&lt;大于号 &gt;
+        &lt;script&gt; &lt;!&ndash;防止后台误认为输入的是js语句 所以把尖括号用实体字符代替&ndash;&gt;
+            alert('aa');
+        &lt;script&gt;-->
+    行级元素 水平分布 块级元素 垂直分布 行级元素：a标签 span标签 块级元素： h p div ul 行级块元素 ：图片
+        <div>gfgdffd</div>
+        <p>fjdhdlh</p>
+        <span>dddddd</span>
+        <span>fdhfdhdfd</span>
+        <ul>
+            <li>ffddd</li>
+            <li>ffddd</li>
+        </ul>
+        <a href="2.html"></a>bsrriuigidg
+        <a href=""></a>fjgdgljfjg
+        <span>dfdjds</span>
+        <img src="aa.jpg" alt="">
+        <span>dfdjds</span>
+    </body>
+    <br>
+html 语义化： 1，方便开发人员开发维护
+              2，有利于搜索引擎
+</html>
